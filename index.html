@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registro de Usuario</title>
+  
+</head>
+<body>
+    <div class="container">
+      <div class="tab">
+        <button onclick="showRegister()">Registrarse</button>
+        <button onclick="showLogin()">Iniciar Sesión</button>
+      </div>
+  
+      <div id="registerForm" class="form">
+        <h2>Registro de Usuario</h2>
+        <div class="form-group">
+          <label for="registerUsername">Nombre de Usuario:</label>
+          <input type="text" id="registerUsername">
+        </div>
+        <div class="form-group">
+          <label for="registerPassword">Contraseña:</label>
+          <input type="password" id="registerPassword">
+        </div>
+        <div class="form-group">
+          <button onclick="register()">Registrar</button>
+        </div>
+        <div id="registerMessage" class="message"></div>
+      </div>
+  
+      <div id="loginForm" class="form" style="display: none;">
+        <h2>Iniciar Sesión</h2>
+        <div class="form-group">
+          <label for="loginUsername">Nombre de Usuario:</label>
+          <input type="text" id="loginUsername">
+        </div>
+        <div class="form-group">
+          <label for="loginPassword">Contraseña:</label>
+          <input type="password" id="loginPassword">
+        </div>
+        <div class="form-group">
+          <button onclick="login()">Iniciar Sesión</button>
+        </div>
+        <div id="loginMessage" class="message"></div>
+      </div>
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
