@@ -94,7 +94,7 @@ function login() {
     }
   
     // Redirigir a dashboard.html si el inicio de sesión es exitoso
-    window.location.href = '../paginas/dashboard.html';
+    window.location.href = 'paginas/dashboard.html';
 }
   
 // Función para limpiar mensajes de error o éxito
@@ -114,6 +114,6 @@ function logout() {
     localStorage.clear();
   
     // Redirigir a la página de inicio de sesión o registro
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
 }
   
