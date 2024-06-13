@@ -94,7 +94,7 @@ function login() {
     }
   
     // Redirigir a dashboard.html si el inicio de sesión es exitoso
-    window.location.href = 'dashboard.html';
+    window.location.href = '../paginas/dashboard.html';
 }
   
 // Función para limpiar mensajes de error o éxito
